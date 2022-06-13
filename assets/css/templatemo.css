@@ -33,6 +33,7 @@ body, ul, li, p, a, label, input, div {
   font-family: 'Roboto', sans-serif;
   font-size: 18px !important;
   font-weight: 300 !important;
+  background-color: black !important;
 }
 .h1 {
   font-family: 'Roboto', sans-serif;
@@ -75,7 +76,7 @@ body, ul, li, p, a, label, input, div {
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
 
 /* Hero Carousel */
-#template-mo-zay-hero-carousel { background: #efefef !important;}
+#template-mo-zay-hero-carousel { background: black !important;}
 /* Accordion */
 .templatemo-accordion a { color: #000;}
 .templatemo-accordion a:hover { color: #333d4a;}
@@ -165,6 +166,11 @@ body, ul, li, p, a, label, input, div {
 .product-wap .product-color-dot {
   width: 6px;
   height: 6px;
+}
+
+/* Agregado */
+.custom {
+  background-color: black !important;
 }
 
 @media (min-width: 576px) {
