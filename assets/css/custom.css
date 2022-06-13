@@ -7,13 +7,15 @@ Custom Css
 } */
 
 .customBack {
-    background: url(../img/img2.jpeg);
+    /* background: url(../img/img2.jpeg); */
     height: 100vh;
+    display: flex;
+    justify-content: space-around;
 }
 
 .customImg {
 max-height: 20vh;
 position: fixed;
-  right: 0;
-  bottom: 0;
+  right: 10%;
+  bottom: 10%;
 }
